@@ -1,0 +1,68 @@
+html {
+    transition: background-color 1s;
+  }
+  #root{
+    width:80%;
+    margin: 0 10%;
+  }
+  
+  .quotebox {
+    margin-top: 170px;
+    margin-right:150px;
+    margin-left: 150px;
+    padding-top: 50px;
+    color:rgb(255, 255, 255);
+    border-radius: 20px 50px;
+    text-align: right;
+    padding-left: 70px;
+    font-family: garamond;
+    font-size: 18px;
+  
+    
+  }
+  
+  #quote {
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .fadeIn {
+    opacity: 0;
+    display: block;
+    animation: slidein 1s ease-out forwards;
+    
+  }
+  
+  @keyframes slidein {
+    0% {
+      opacity: 0;
+      transform: translateY(-25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  #author {
+    margin: 20px;
+    font-size: 30px;
+    padding-left: 80px;
+    color:rgb(255, 255, 255);
+    font-family: garamond;
+  }
+  
+  #newquote {
+    margin: 20px;
+    position: relative;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family:garamond;
+    color: white;
+    border-radius: 250px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+  }
